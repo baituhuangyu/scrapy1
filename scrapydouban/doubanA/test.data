@@ -1,0 +1,1554 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="renderer" content="webkit">
+
+    <title>
+    话题精选
+    (豆瓣)
+</title>
+    
+    
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="Sun, 6 Mar 2005 01:00:00 GMT">
+    
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    
+
+    <script >var _head_start = new Date();</script>
+    <script src="http://img3.douban.com/f/shire/72ced6df41d4d158420cebdd254f9562942464e3/js/jquery.min.js"></script>
+    <script src="http://img3.douban.com/f/shire/6072cbd9e3d56db50f819890f57164950110117c/js/douban.js"></script>
+    <link href="http://img3.douban.com/f/shire/b49390e04865d11732599c6131b91367975a8fc4/css/douban.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+    
+        
+    </style>
+    
+    <link rel="stylesheet" href="http://img3.douban.com/misc/mixed_static/3274fdce9d27db39.css">
+    <script>
+Douban.init_join_group=function(a){var c=$(a);var b=c.data("group_id");c.click(function(d){d.preventDefault();if(c.hasClass("processing")){return}c.addClass("processing");$.post_withck("/j/group/"+b+"/join",function(g){c.removeClass("processing");var f="已加入";if(!g.result){f=g.msg||"加入失败"}c.replaceWith('<span class="joined">&#8730;'+f+"</span>")},"json")})};Douban.init_show_request_join_form=function(b){var a=$(b).click(function(c){c.preventDefault();group_id=a.data("group_id");pop_win('<div style="padding:20px 60px;">加载中, 请稍等...</div>');$.ajax({url:"/j/group/"+group_id+"/request_join_form2",success:function(f){if(!f.html){pop_win('<div style="padding:20px 60px;">'+f.msg+"</div");a.replaceWith('<span class="joined">&#8730;'+f.msg+"</span>")}else{pop_win(f.html);var d=$("#joinform").submit(function(g){g.preventDefault();$.post_withck(d.attr("action"),d.serializeArray());a.replaceWith('<span class="joined">&#8730;已申请</span>');pop_win.close()})}},cache:true,dataType:"json"})})};
+</script>
+
+
+    <link rel="shortcut icon" href="http://img3.douban.com/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+  
+    
+    <script type="text/javascript">var _body_start = new Date();</script>
+    
+   
+
+
+
+
+
+
+
+<div id="db-global-nav" class="global-nav">
+  <div class="bd">
+    
+
+
+
+
+
+
+<div class="top-nav-info">
+      
+      <a href="http://www.douban.com/accounts/login?source=group" class="nav-login" rel="nofollow">登录</a>
+      <a href="http://www.douban.com/accounts/register?source=group" class="nav-register" rel="nofollow">注册</a>
+</div>
+
+
+
+    <div class="top-nav-doubanapp">
+        
+        <a href="http://www.douban.com/doubanapp/app?channel=top-nav" class="lnk-doubanapp">下载豆瓣客户端</a>
+        <div id="top-nav-appintro" class="more-items">
+            <p class="slogan">汇集一亿人的生活趣味</p>
+            <p class="qrcode">
+                扫码直接下载
+            </p>
+            <div class="download">
+                <a href="http://www.douban.com/doubanapp/redirect?channel=top-nav&amp;direct_dl=1&amp;download=iOS">Download on the App Store</a>
+                <a href="http://www.douban.com/doubanapp/redirect?channel=top-nav&amp;direct_dl=1&amp;download=Android" class="download-android">Download Android</a>
+            </div>
+        </div>
+        <div id="doubanapp-tip">
+            <a href="http://www.douban.com/doubanapp/app?channel=qipao" class="tip-link">新版发布，可以刷广播啦</a>
+            <a href="javascript: void 0;" class="tip-close">×</a>
+        </div>
+    </div>
+
+    <div class="global-nav-items">
+      <ul>
+          
+            
+            <li>
+            <a href="http://www.douban.com/" target="_blank" data-moreurl-dict="{&#34;from&#34;:&#34;top-nav-click-main&#34;,&#34;uid&#34;:&#34;0&#34;}">豆瓣</a>
+            </li>
+          
+            
+            <li>
+            <a href="http://book.douban.com/" target="_blank" data-moreurl-dict="{&#34;from&#34;:&#34;top-nav-click-book&#34;,&#34;uid&#34;:&#34;0&#34;}">读书</a>
+            </li>
+          
+            
+            <li>
+            <a href="http://movie.douban.com/" target="_blank" data-moreurl-dict="{&#34;from&#34;:&#34;top-nav-click-movie&#34;,&#34;uid&#34;:&#34;0&#34;}">电影</a>
+            </li>
+          
+            
+            <li>
+            <a href="http://music.douban.com/" target="_blank" data-moreurl-dict="{&#34;from&#34;:&#34;top-nav-click-music&#34;,&#34;uid&#34;:&#34;0&#34;}">音乐</a>
+            </li>
+          
+            
+            <li>
+            <a href="http://www.douban.com/location/" target="_blank" data-moreurl-dict="{&#34;from&#34;:&#34;top-nav-click-location&#34;,&#34;uid&#34;:&#34;0&#34;}">同城</a>
+            </li>
+          
+            
+            <li class="on">
+            <a href="http://www.douban.com/group/" data-moreurl-dict="{&#34;from&#34;:&#34;top-nav-click-group&#34;,&#34;uid&#34;:&#34;0&#34;}">小组</a>
+            </li>
+          
+            
+            <li>
+            <a href="http://read.douban.com/?dcs=top-nav&amp;dcm=douban" target="_blank" data-moreurl-dict="{&#34;from&#34;:&#34;top-nav-click-read&#34;,&#34;uid&#34;:&#34;0&#34;}">阅读</a>
+            </li>
+          
+            
+            <li>
+            <a href="http://douban.fm/" target="_blank" data-moreurl-dict="{&#34;from&#34;:&#34;top-nav-click-fm&#34;,&#34;uid&#34;:&#34;0&#34;}">豆瓣FM</a>
+            </li>
+          
+            
+            <li>
+            <a href="http://dongxi.douban.com/?dcs=top-nav&amp;dcm=douban" target="_blank" data-moreurl-dict="{&#34;from&#34;:&#34;top-nav-click-commodity&#34;,&#34;uid&#34;:&#34;0&#34;}">东西</a>
+            </li>
+          
+            <li>
+              <a href="#more" class="bn-more"><span>更多</span></a>
+              <div class="more-items">
+                <table cellpadding="0" cellspacing="0">
+                    
+                    <tr><td><a href="http://market.douban.com" target="_blank" data-moreurl-dict="{&#34;from&#34;:&#34;top-nav-click-market&#34;,&#34;uid&#34;:&#34;0&#34;}">豆瓣市集</a></td></tr>
+                    
+                    <tr><td><a href="http://ypy.douban.com" target="_blank" data-moreurl-dict="{&#34;from&#34;:&#34;top-nav-click-ypy&#34;,&#34;uid&#34;:&#34;0&#34;}">一拍一</a></td></tr>
+                    
+                    <tr><td><a href="http://9.douban.com" target="_blank" data-moreurl-dict="{&#34;from&#34;:&#34;top-nav-click-9&#34;,&#34;uid&#34;:&#34;0&#34;}">九点</a></td></tr>
+                </table>
+              </div>
+            </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+   
+    
+
+
+
+
+
+
+
+
+
+<div id="db-nav-group" class="nav">
+  <div class="nav-wrap">
+  <div class="nav-primary clearfix">
+    <div class="nav-logo">
+      <a href="http://www.douban.com/group/">豆瓣小组</a>
+    </div>
+
+    <div class="nav-items">
+    <ul>
+      <li><a href="http://www.douban.com/group/explore">精选</a></li>
+      <li><a href="http://www.douban.com/group/explore/culture">文化</a></li>
+      <li><a href="http://www.douban.com/group/explore/travel">行摄</a></li>
+      <li><a href="http://www.douban.com/group/explore/ent">娱乐</a></li>
+      <li><a href="http://www.douban.com/group/explore/fashion">时尚</a></li>
+      <li><a href="http://www.douban.com/group/explore/life">生活</a></li>
+      <li><a href="http://www.douban.com/group/explore/tech">科技</a></li>
+   </ul>
+   </div>
+
+    <div class="nav-search">
+      <form id='form' action="http://www.douban.com/group/search" method="get">
+        <fieldset>
+          <legend>搜索：</legend>
+          
+          <input type="hidden" name="cat" value="1019" />
+          <label for="inp-query">小组、话题</label>
+          <div class="inp"><input id="inp-query" name="q" size="22" maxlength="60" value=""></div>
+          <div class="inp-btn"><input type="submit" value="搜索"></div>
+        </fieldset>
+      </form>
+    </div>
+  </div>
+  </div>
+
+</div>
+
+<script>
+Do(function(){
+  var nav = $('#db-nav-group');
+  var inp=$("#inp-query"),label=inp.closest(".nav-search").find("label");if("placeholder" in inp[0]){label.hide();inp.attr("placeholder",label.text())}else{if(inp.val()!==""){label.hide()}inp.parent().click(function(){inp.focus();label.hide()}).end().focusin(function(){label.hide()}).focusout(function(){if($.trim(this.value)===""){label.show()}else{label.hide()}}).keydown(function(){label.hide()})}inp.parents("form").submit(function(){if(!$.trim(inp.val()).length){return false}});nav.find(".lnk-more, .lnk-account").click(function(b){b.preventDefault();var d,a=$(this),c=a.hasClass("lnk-more")?$("#db-productions"):$("#db-usr-setting");if(!c.data("init")){d=a.offset();c.css({"margin-left":(d.left-$(window).width()/2-c.width()+a.width()+parseInt(a.css("padding-right"),10))+"px",left:"50%",top:d.top+a.height()+"px"});c.data("init",1);c.hide();$("body").click(function(g){var f=$(g.target);if(f.hasClass("lnk-more")||f.hasClass("lnk-account")||f.closest("#db-usr-setting").length||f.closest("#db-productions").length){return}c.hide()})}if(c.css("display")==="none"){$(".dropdown").hide();c.show()}else{$(".dropdown").hide()}});
+});
+</script>
+
+
+
+
+    <div id="wrapper">
+        
+
+        
+<div id="content">
+    
+    <h1><div class="head-nav">
+        <span class="head-title">
+        话题精选
+        </span>
+      <p>
+    </div></h1>
+
+    <div class="grid-16-8 clearfix">
+        
+        
+        <div class="article">
+               
+  <div class="">
+      
+  
+  <div class="channel-item">
+    <div class="likes">62<br>喜欢</div>
+    <div class="bd">
+      <h3><a href="http://www.douban.com/group/topic/75350778/">想说说读研期间差点被禽兽导师猥亵的事，顺便听听各位的意见</a></h3>
+      <div class="block">
+        
+        <p>我是2011年读的研，目前已毕业，有稳定工作，今天听师妹说禽兽今年又招了两个女生，所以在想要不要找媒体曝光之类的，不想后面的像我一样悲催，但是最关键的没有证据，也害怕曝光了，师妹们会害怕不肯帮我，可是不曝光他，...
+      </div>
+      <div class="source">
+        
+        <span class="from">来自<a href="http://www.douban.com/group/blabla/">八卦来了|三羊开泰小组</a></span>
+        <span class="pubtime">今天12:27</span>
+      </div>
+    </div>
+  </div>
+
+      
+  
+  <div class="channel-item">
+    <div class="likes">213<br>喜欢</div>
+    <div class="bd">
+      <h3><a href="http://www.douban.com/group/topic/75319590/">搬运个老帖子给蓝宇CP粉！！！</a></h3>
+      <div class="block">
+        
+        <p>好想看无删节版的蓝宇啊！！就是社长露鸟版（害羞脸）求种子！！！
+
+
+胡军刘烨“蓝宇”后遗症 
+文/绿光 （转自《追求》2002年4 月号） 
+
+那天晚上的北京，《蓝宇》剧组关机。 
+大伙起哄让胡军刘烨起来唱歌。胡军仍是...
+      </div>
+      <div class="source">
+        
+        <span class="from">来自<a href="http://www.douban.com/group/blabla/">八卦来了|三羊开泰小组</a></span>
+        <span class="pubtime">今天12:20</span>
+      </div>
+    </div>
+  </div>
+
+      
+  
+  <div class="channel-item">
+    <div class="likes">91<br>喜欢</div>
+    <div class="bd">
+      <h3><a href="http://www.douban.com/group/topic/74486672/">你们心中的【直男杀手】味是啥</a></h3>
+      <div class="block">
+        
+        <p>大家讨论的香都太气质了。。。
+
+我想知道什么是直男杀手味！
+
+我觉得橙花、野蓝玲都是，，还有别的咩？
+
+
+------统计----------
+
+
+橙花  3
+
+粉色邂逅  2
+
+红毒  2
+
+黄色邂逅  1
+
+粉丝花漾甜心  1
+
+大吉...
+      </div>
+      <div class="source">
+        
+        <span class="from">来自<a href="http://www.douban.com/group/Parfumare/">香水小组</a></span>
+        <span class="pubtime">今天12:14</span>
+      </div>
+    </div>
+  </div>
+
+      
+  
+  <div class="channel-item">
+    <div class="likes">37<br>喜欢</div>
+    <div class="bd">
+      <h3><a href="http://www.douban.com/group/topic/75297499/">说一下华为吧</a></h3>
+      <div class="block">
+        
+        <p>刚才在隔壁八卦组看有人提到华为，于是看评论发现很多人不了解华为。作为在华为研发工作十几年的人，有点看不下去了。最近比较闲就随便说说吧，当个参考。
+
+我说的只代表我个人的经历，华为那么大，肯定有很多与我情况有...
+      </div>
+      <div class="source">
+        
+        <span class="from">来自<a href="http://www.douban.com/group/myjob/">上班这件事小组</a></span>
+        <span class="pubtime">今天12:13</span>
+      </div>
+    </div>
+  </div>
+
+      
+  
+  <div class="channel-item">
+    <div class="likes">26<br>喜欢</div>
+    <div class="bd">
+      <h3><a href="http://www.douban.com/group/topic/75361400/">你是怎么发现自己男友出轨的？</a></h3>
+      <div class="block">
+        
+        <p>之前豆瓣精选里有这么个话题，是女生发的。
+标题是，男生都来说一下，女友是怎么发现你出轨的。
+
+结果几乎没有男士来现身说法。
+但是妹子很多。
+然后各种奇怪的出轨被抓，真是让人大开眼界。
+
+看得特别可乐。
+所以...
+      </div>
+      <div class="source">
+        
+        <span class="from">来自<a href="http://www.douban.com/group/Junko/">〓小小女人帮〓 男 3 喷子 圣母勿进小组</a></span>
+        <span class="pubtime">今天12:06</span>
+      </div>
+    </div>
+  </div>
+
+      
+  
+  <div class="channel-item">
+    <div class="likes">23<br>喜欢</div>
+    <div class="bd">
+      <h3><a href="http://www.douban.com/group/topic/75336316/">说一件比做爱更有快感的事？</a></h3>
+      <div class="block">
+        
+        <p> 
+
+高中时没有性生活。冥思苦想，解开一道数学题，或者物理题的那种快感。
+
+在外漂泊的的人，偶然在一条小巷，发现一家卖家乡小吃的小店，而且味道很赞的那种快感。
+
+从小一起玩大的伙伴，几年都未曾见过，再次见面，...
+      </div>
+      <div class="source">
+        
+        <span class="from">来自<a href="http://www.douban.com/group/170726/">凭什么最光鲜的时候没有美好性生活小组</a></span>
+        <span class="pubtime">今天12:03</span>
+      </div>
+    </div>
+  </div>
+
+      
+  
+  <div class="channel-item">
+    <div class="likes">432<br>喜欢</div>
+    <div class="bd">
+      <h3><a href="http://www.douban.com/group/topic/75315029/">感觉末代的宋朝真是太tm可怜啊 大好山河入外族~</a></h3>
+      <div class="block">
+        
+        <p>当权者真是惨不忍睹 还有中央的高层~少帝8岁 被管家宰相抱着说了几句话 不入外敌之手 应当殉国 就跳海了
+
+
+大家尽量言简意赅表达论点 楼太多了 看官们辛苦点
+
+那个纯碎讨论历史，没有抨击的意思。有意见着请勿喷~
+
+...
+      </div>
+      <div class="source">
+        
+        <span class="from">来自<a href="http://www.douban.com/group/blabla/">八卦来了|三羊开泰小组</a></span>
+        <span class="pubtime">今天11:04</span>
+      </div>
+    </div>
+  </div>
+
+      
+  
+  <div class="channel-item">
+    <div class="likes">1219<br>喜欢</div>
+    <div class="bd">
+      <h3><a href="http://www.douban.com/group/topic/75296042/">818有脖子前伸的女明星顺便讨论如何正直好么~</a></h3>
+      <div class="block">
+        
+        <div class="pic">
+          <div class="pic-wrap">
+            <img src="http://img3.douban.com/view/group_topic/small/public/p29966573.jpg">
+          </div>
+        </div>
+        <p>先科普一下，类似这种，当然现实里一般严重不到这种地步。。但是我个人觉得脖子前伸的人仪态都不太好
+ 
+
+之前就觉得杨幂和赵薇有脖子前伸的毛病，动态比静态感觉要明显,
+谢谢楼里的同学...
+      </div>
+      <div class="source">
+        
+        <span class="from">来自<a href="http://www.douban.com/group/blabla/">八卦来了|三羊开泰小组</a></span>
+        <span class="pubtime">今天11:03</span>
+      </div>
+    </div>
+  </div>
+
+      
+  
+  <div class="channel-item">
+    <div class="likes">28<br>喜欢</div>
+    <div class="bd">
+      <h3><a href="http://www.douban.com/group/topic/75299128/">天惹噜，刘烨胡军一起上爸哪三？？？？</a></h3>
+      <div class="block">
+        
+        <p>@娱乐圈的日常
+《爸爸去哪儿》第三季第一期将于5月17日在陕西榆林附近的村庄录制，录制嘉宾最先确定的三对是：刘烨父子、邹市明父子和胡军父子。其他两对暂时对外保密，不过肯定是爸爸和女儿的搭档，哪个明星家有女儿就很...
+      </div>
+      <div class="source">
+        
+        <span class="from">来自<a href="http://www.douban.com/group/blabla/">八卦来了|三羊开泰小组</a></span>
+        <span class="pubtime">05-15</span>
+      </div>
+    </div>
+  </div>
+
+      
+  
+  <div class="channel-item">
+    <div class="likes">60<br>喜欢</div>
+    <div class="bd">
+      <h3><a href="http://www.douban.com/group/topic/75303970/">丐帮是怎么衰落的？ ——净衣派和污衣派之争</a></h3>
+      <div class="block">
+        
+        <p>丐帮帮主，真的是越来越穷了……
+
+想当年萧峰还是乔帮主的时候，无锡城外“松鹤楼”上，乔峰面前桌上“放着一大盘熟牛肉、一大碗汤、两壶酒，此外更无别物，可见他便是吃喝，也十分的豪迈自在”。乔峰段誉二人喝完酒结账...
+      </div>
+      <div class="source">
+        
+        <span class="from">来自<a href="http://www.douban.com/group/JH-MR-MS/">武侠 · 江湖 ▎微信订阅号：bqz-2468小组</a></span>
+        <span class="pubtime">05-15</span>
+      </div>
+    </div>
+  </div>
+
+      
+  
+  <div class="channel-item">
+    <div class="likes">101<br>喜欢</div>
+    <div class="bd">
+      <h3><a href="http://www.douban.com/group/topic/75303945/">杜月笙的两个故事</a></h3>
+      <div class="block">
+        
+        <div class="pic">
+          <div class="pic-wrap">
+            <img src="http://img3.douban.com/view/group_topic/small/public/p29974722.jpg">
+          </div>
+        </div>
+        <p>
+
+我们对德行的认识，不能只看思想倾向，不看直观的可感的形象。这里，我讲一个直观的可感的形象。
+
+杜月笙，都说他是上海大亨，流氓。
+
+我想讲两个事情，1931年“九一八事变”后，东...
+      </div>
+      <div class="source">
+        
+        <span class="from">来自<a href="http://www.douban.com/group/534757/">民国才子佳人 ▎微信订阅号：bqz-2468小组</a></span>
+        <span class="pubtime">05-15</span>
+      </div>
+    </div>
+  </div>
+
+      
+  
+  <div class="channel-item">
+    <div class="likes">231<br>喜欢</div>
+    <div class="bd">
+      <h3><a href="http://www.douban.com/group/topic/75226773/">八一八身边的罕见姓氏及它的由来</a></h3>
+      <div class="block">
+        
+        <p>看了05.12的康熙 是讲罕见姓氏的 还有一个历史老师来科普它的由来【虽然他说的好像是google来的23333】感觉这个话题好有趣 比如里面有个男生姓 操 说是曹操的后人把曹字抹掉了 
+
+不知道你们知不知道一些罕见姓氏的典故 或...
+      </div>
+      <div class="source">
+        
+        <span class="from">来自<a href="http://www.douban.com/group/blabla/">八卦来了|三羊开泰小组</a></span>
+        <span class="pubtime">05-15</span>
+      </div>
+    </div>
+  </div>
+
+      
+  
+  <div class="channel-item">
+    <div class="likes">97<br>喜欢</div>
+    <div class="bd">
+      <h3><a href="http://www.douban.com/group/topic/75188150/">你有没有在某些事上异常的事逼</a></h3>
+      <div class="block">
+        
+        <p>我现在看电影视频什么的 一定要720p 或1080p 如果不是我看的就很难受 宁愿不看
+－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
+
+咋都这么可爱呢 我喜欢有自己习惯的小事逼
+      </div>
+      <div class="source">
+        
+        <span class="from">来自<a href="http://www.douban.com/group/blabla/">八卦来了|三羊开泰小组</a></span>
+        <span class="pubtime">05-14</span>
+      </div>
+    </div>
+  </div>
+
+      
+  
+  <div class="channel-item">
+    <div class="likes">188<br>喜欢</div>
+    <div class="bd">
+      <h3><a href="http://www.douban.com/group/topic/75258713/">为什么电影院里总会有些花式傻逼</a></h3>
+      <div class="block">
+        
+        <p>今天去看妇联，边上坐一女生和其男友，女的刚进来没多久就吧爆米花撒了一地，然后就开始了一惊一炸的观影。
+
+只要银幕上出现打斗，她就会配合着发出各种感叹，比如倒抽一口冷气式的“啊！”，惊叹式的“哇！哇噻！，赞叹...
+      </div>
+      <div class="source">
+        
+        <span class="from">来自<a href="http://www.douban.com/group/blabla/">八卦来了|三羊开泰小组</a></span>
+        <span class="pubtime">05-14</span>
+      </div>
+    </div>
+  </div>
+
+      
+  
+  <div class="channel-item">
+    <div class="likes">251<br>喜欢</div>
+    <div class="bd">
+      <h3><a href="http://www.douban.com/group/topic/75208948/">清迈十五天。【附向老师请假方法】多图！</a></h3>
+      <div class="block">
+        
+        <div class="pic">
+          <div class="pic-wrap">
+            <img src="http://img3.douban.com/view/group_topic/small/public/p29849572.jpg">
+          </div>
+        </div>
+        <p>百无聊赖昏昏欲睡前途渺茫 嗯，东倒西歪的初夏。当帅老师的课程结束后 。私心觉得应该趁着年轻有活力（其实就是不想上学不思进取)出去浪啊！！！！！  
+
+出行第一步：在一个炎热的午后，在...
+      </div>
+      <div class="source">
+        
+        <span class="from">来自<a href="http://www.douban.com/group/asshole/">我总觉得自己就是一个傻逼小组</a></span>
+        <span class="pubtime">05-14</span>
+      </div>
+    </div>
+  </div>
+
+      
+  
+  <div class="channel-item">
+    <div class="likes">34<br>喜欢</div>
+    <div class="bd">
+      <h3><a href="http://www.douban.com/group/topic/75257363/">苹果采访 阿雅承认老公是huo fo 辣</a></h3>
+      <div class="block">
+        
+        <div class="pic">
+          <div class="pic-wrap">
+            <img src="http://img3.douban.com/view/group_topic/small/public/p29916252.jpg">
+          </div>
+        </div>
+        <p>豆瓣网友太强大了
+ 
+ 
+      </div>
+      <div class="source">
+        
+        <span class="from">来自<a href="http://www.douban.com/group/blabla/">八卦来了|三羊开泰小组</a></span>
+        <span class="pubtime">05-14</span>
+      </div>
+    </div>
+  </div>
+
+      
+  
+  <div class="channel-item">
+    <div class="likes">220<br>喜欢</div>
+    <div class="bd">
+      <h3><a href="http://www.douban.com/group/topic/75234979/">严肃的问题！你们妈妈都在干嘛！（惊现好多有钱任性的妈妈）</a></h3>
+      <div class="block">
+        
+        <p>可能豆瓣有些孩子太小，所以妈妈现在正值最好年华，三十多岁事业女性。
+
+我就想问下那些妈妈已经五十左右的。。。
+
+你们的妈妈现在在做什么呢？
+
+工作？
+闲在家？
+打麻将？
+
+我妈因为一些原因，现在已经退休了，...
+      </div>
+      <div class="source">
+        
+        <span class="from">来自<a href="http://www.douban.com/group/blabla/">八卦来了|三羊开泰小组</a></span>
+        <span class="pubtime">05-13</span>
+      </div>
+    </div>
+  </div>
+
+      
+  
+  <div class="channel-item">
+    <div class="likes">10<br>喜欢</div>
+    <div class="bd">
+      <h3><a href="http://www.douban.com/group/topic/75248958/">【更新】阿雅的事上苹果日报首页了</a></h3>
+      <div class="block">
+        
+        <div class="pic">
+          <div class="pic-wrap">
+            <img src="http://img4.douban.com/view/group_topic/small/public/p29903248.jpg">
+          </div>
+        </div>
+        <p>苹果已经报道了。
+
+好了！蘋果報導已经改成豆瓣了！
+     
+      </div>
+      <div class="source">
+        
+        <span class="from">来自<a href="http://www.douban.com/group/kangxilaile/">康熙来了小组</a></span>
+        <span class="pubtime">05-13</span>
+      </div>
+    </div>
+  </div>
+
+      
+  
+  <div class="channel-item">
+    <div class="likes">93<br>喜欢</div>
+    <div class="bd">
+      <h3><a href="http://www.douban.com/group/topic/75217842/">煮酒论史 | 中国古代十大传奇侠客</a></h3>
+      <div class="block">
+        
+        <div class="pic">
+          <div class="pic-wrap">
+            <img src="http://img4.douban.com/view/group_topic/small/public/p29862839.jpg">
+          </div>
+        </div>
+        <p>
+“相与信为任，同是非为侠。所谓权行州里，力折公侯者也”——在古老的社会中，游侠是一群跳出了纲纪法度的存在，他们有着自己的独立观念和原则，行为虽然常常出入于律法之间，然而言必信...
+      </div>
+      <div class="source">
+        
+        <span class="from">来自<a href="http://www.douban.com/group/JH-MR-MS/">武侠 · 江湖 ▎微信订阅号：bqz-2468小组</a></span>
+        <span class="pubtime">05-13</span>
+      </div>
+    </div>
+  </div>
+
+      
+  
+  <div class="channel-item">
+    <div class="likes">185<br>喜欢</div>
+    <div class="bd">
+      <h3><a href="http://www.douban.com/group/topic/75216229/">谁能告诉我一些工资高又不需要学历的工作</a></h3>
+      <div class="block">
+        
+        <p>。。。。。。
+      </div>
+      <div class="source">
+        
+        <span class="from">来自<a href="http://www.douban.com/group/blabla/">八卦来了|三羊开泰小组</a></span>
+        <span class="pubtime">05-13</span>
+      </div>
+    </div>
+  </div>
+
+      
+  
+  <div class="channel-item">
+    <div class="likes">243<br>喜欢</div>
+    <div class="bd">
+      <h3><a href="http://www.douban.com/group/topic/75144296/">独身女孩的《出埃及记》（新日志也出炉啦）</a></h3>
+      <div class="block">
+        
+        <div class="pic">
+          <div class="pic-wrap">
+            <img src="http://img3.douban.com/view/group_topic/small/public/p29771360.jpg">
+          </div>
+        </div>
+        <p> 号外，号外，《坏女孩的私人阅读第一课——我的那些路书》 新鲜出炉！
+ 戳这里：http://www.douban.com/note/499655528/
+  
+  小私心的先分享下自己的游记。不好意思，产量有点低。
+日...
+      </div>
+      <div class="source">
+        
+        <span class="from">来自<a href="http://www.douban.com/group/skyfree/">出国自助游教室小组</a></span>
+        <span class="pubtime">05-12</span>
+      </div>
+    </div>
+  </div>
+
+      
+  
+  <div class="channel-item">
+    <div class="likes">477<br>喜欢</div>
+    <div class="bd">
+      <h3><a href="http://www.douban.com/group/topic/74791725/">【多图教程贴】小玉教你读懂b家！</a></h3>
+      <div class="block">
+        
+        <div class="pic">
+          <div class="pic-wrap">
+            <img src="http://img4.douban.com/view/group_topic/small/public/p29344566.jpg">
+          </div>
+        </div>
+        <p>在帖子和豆油回应了几天，发现好乱！果然版聊真是考验条理性，囧，我有可能忘记回应或者串到别的妹子身上了，如果有这种情况请谅解！建议你们尽量一段话全面描述自己的问题～
+
+如果着急的可...
+      </div>
+      <div class="source">
+        
+        <span class="from">来自<a href="http://www.douban.com/group/179860/">BRADELIS粉丝族小组</a></span>
+        <span class="pubtime">05-12</span>
+      </div>
+    </div>
+  </div>
+
+      
+  
+  <div class="channel-item">
+    <div class="likes">1180<br>喜欢</div>
+    <div class="bd">
+      <h3><a href="http://www.douban.com/group/topic/74888845/">和一个炒鸡帅的空军少校约会了！！进展顺利！！</a></h3>
+      <div class="block">
+        
+        <p>本来在逼组发的！！！转战八组！！！不想在逼组更了→_→
+
+
+这段时间住酒店公寓 坐标不能说 附近是军区地产 这酒店也是 经常能看到穿着蓝色军装的空军出没 
+我住18楼 从房间窗外往下看正好能看到被树林里三层外三层包围...
+      </div>
+      <div class="source">
+        
+        <span class="from">来自<a href="http://www.douban.com/group/blabla/">八卦来了|三羊开泰小组</a></span>
+        <span class="pubtime">05-12</span>
+      </div>
+    </div>
+  </div>
+
+      
+  
+  <div class="channel-item">
+    <div class="likes">201<br>喜欢</div>
+    <div class="bd">
+      <h3><a href="http://www.douban.com/group/topic/74739089/">我也觉得我自己就是一个傻逼，一天只晓得画画画画画画画</a></h3>
+      <div class="block">
+        
+        <div class="pic">
+          <div class="pic-wrap">
+            <img src="http://img3.douban.com/view/group_topic/small/public/p29282713.jpg">
+          </div>
+        </div>
+        <p> 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+一天只晓得画画画画画画画。
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+在加几张，证明我不是一般的傻！
+      </div>
+      <div class="source">
+        
+        <span class="from">来自<a href="http://www.douban.com/group/zhuangb/">文艺青年装逼会小组</a></span>
+        <span class="pubtime">05-12</span>
+      </div>
+    </div>
+  </div>
+
+      
+  
+  <div class="channel-item">
+    <div class="likes">295<br>喜欢</div>
+    <div class="bd">
+      <h3><a href="http://www.douban.com/group/topic/75083341/">哪部电视剧的大结局久久地震撼你？</a></h3>
+      <div class="block">
+        
+        <p>天与地啊 八组有人看过没
+之前lz发过 唉 看的时候觉得好唏嘘 一个选择可以影响一生
+还有金枝欲孽啊 771粉 今天在吃饭的时候突然想到结局眼泪在打转啊
+没错我就是蛇精病啊
+日剧日剧！！！
+白色巨塔里面财前五郎的死
+华...
+      </div>
+      <div class="source">
+        
+        <span class="from">来自<a href="http://www.douban.com/group/blabla/">八卦来了|三羊开泰小组</a></span>
+        <span class="pubtime">05-12</span>
+      </div>
+    </div>
+  </div>
+
+      
+  
+  <div class="channel-item">
+    <div class="likes">289<br>喜欢</div>
+    <div class="bd">
+      <h3><a href="http://www.douban.com/group/topic/74572674/">他们看见了什么？小孩子那些令人毛骨悚然的话</a></h3>
+      <div class="block">
+        
+        <div class="pic">
+          <div class="pic-wrap">
+            <img src="http://img3.douban.com/view/group_topic/small/public/p29451951.jpg">
+          </div>
+        </div>
+        <p>警告：以下内容略惊悚，心脏无力者请慎读！
+
+
+童言童语的小孩是可爱的，尽管我们不知道他嘴里喃喃着到底在说些什么、甚至讲些自己国度的语言，在我们这些大人眼里，怎么看都觉得可爱到炸...
+      </div>
+      <div class="source">
+        
+        <span class="from">来自<a href="http://www.douban.com/group/tomorrow/">灵异豆瓣小组</a></span>
+        <span class="pubtime">05-12</span>
+      </div>
+    </div>
+  </div>
+
+      
+  
+  <div class="channel-item">
+    <div class="likes">28<br>喜欢</div>
+    <div class="bd">
+      <h3><a href="http://www.douban.com/group/topic/75156898/">刘慈欣新作《雷霆战机的故事》（雷霆战机世界观）</a></h3>
+      <div class="block">
+        
+        <p>
+在不久前举办的腾讯互娱年度发布会上，中国著名科幻作家、小说《三体》作者刘慈欣先生应邀成为《雷霆战机》的世界观架构师。今日，他的最新作品——为《雷霆战机》量身打造的全新世界观《雷霆战机的故事》在此重磅发布！...
+      </div>
+      <div class="source">
+        
+        <span class="from">来自<a href="http://www.douban.com/group/sfw/">科幻世界小组</a></span>
+        <span class="pubtime">05-12</span>
+      </div>
+    </div>
+  </div>
+
+      
+  
+  <div class="channel-item">
+    <div class="likes">90<br>喜欢</div>
+    <div class="bd">
+      <h3><a href="http://www.douban.com/group/topic/75161243/">有结婚不想举办婚礼的姑娘吗</a></h3>
+      <div class="block">
+        
+        <p>如题
+觉得举办婚礼什么的简直不要太麻烦，花钱花精力，很多东西都要浪费在无谓的面子上面，还有人情往来，觉得中国社会这些东西真的不要太世俗
+虽然也理解穿婚纱美美的结婚是姑娘一辈子的梦想，梦幻的情节，但是婚礼确实...
+      </div>
+      <div class="source">
+        
+        <span class="from">来自<a href="http://www.douban.com/group/blabla/">八卦来了|三羊开泰小组</a></span>
+        <span class="pubtime">05-12</span>
+      </div>
+    </div>
+  </div>
+
+  </div>
+  
+    
+    
+
+    
+        <div class="paginator">
+        <span class="prev">
+            &lt;前页
+        </span>
+        
+        
+
+                <span class="thispage" data-total-page="253">1</span>
+                
+            <a href="?start=30" >2</a>
+        
+                
+            <a href="?start=60" >3</a>
+        
+                
+            <a href="?start=90" >4</a>
+        
+                
+            <a href="?start=120" >5</a>
+        
+                
+            <a href="?start=150" >6</a>
+        
+                
+            <a href="?start=180" >7</a>
+        
+                
+            <a href="?start=210" >8</a>
+        
+                
+            <a href="?start=240" >9</a>
+        
+            <span class="break">...</span>
+                
+            <a href="?start=7530" >252</a>
+        
+            <a href="?start=7560" >253</a>
+        
+        <span class="next">
+            <link rel="next" href="?start=30"/>
+            <a href="?start=30" >后页&gt;</a>
+        </span>
+
+        </div>
+
+
+
+        </div>
+        <div class="aside">
+                
+  <!-- douban ad begin -->
+  <div id="dale_group_explore_top_right"></div>
+  <!-- douban ad end -->
+  <div class="mod channel-group-rec">
+    <div class="hd">
+        <h2>
+          值得加入的小组
+        </h2>
+    </div>
+    <div class="bd">
+      <ul>
+          
+  <li class="">
+    <div class="pic">
+      <a href="http://www.douban.com/group/549574/"><img src="http://img3.douban.com/icon/g549574-1.jpg" class=""></a>
+    </div>
+    <div class="info">
+      <div class="title">
+        <a href="http://www.douban.com/group/549574/" class="">北京租房</a>
+      </div>
+      <span class="num">
+      1423个成员
+      </span>
+      <span class="join">
+          <a href="http://www.douban.com/group/549574/?action=join&amp;ck=" class="j a_show_login lnk-join"><i>+</i>加入小组</a>
+      </span>
+    </div>
+  </li>
+
+          
+  <li class="">
+    <div class="pic">
+      <a href="http://www.douban.com/group/67371/"><img src="http://img3.douban.com/icon/g67371-3.jpg" class=""></a>
+    </div>
+    <div class="info">
+      <div class="title">
+        <a href="http://www.douban.com/group/67371/" class="">我们是眼神放空小组</a>
+      </div>
+      <span class="num">
+      99809个漫游到外太空人员
+      </span>
+      <span class="join">
+          <a href="http://www.douban.com/group/67371/?action=join&amp;ck=" class="j a_show_login lnk-join"><i>+</i>加入小组</a>
+      </span>
+    </div>
+  </li>
+
+          
+  <li class="">
+    <div class="pic">
+      <a href="http://www.douban.com/group/210537/"><img src="http://img3.douban.com/icon/g210537-1.jpg" class=""></a>
+    </div>
+    <div class="info">
+      <div class="title">
+        <a href="http://www.douban.com/group/210537/" class="">豆瓣育儿</a>
+      </div>
+      <span class="num">
+      4169个宝贝妈
+      </span>
+      <span class="join">
+          <a href="http://www.douban.com/group/210537/?action=join&amp;ck=" class="j a_show_login lnk-join"><i>+</i>加入小组</a>
+      </span>
+    </div>
+  </li>
+
+          
+  <li class="">
+    <div class="pic">
+      <a href="http://www.douban.com/group/mature/"><img src="http://img3.douban.com/icon/g320374-1.jpg" class=""></a>
+    </div>
+    <div class="info">
+      <div class="title">
+        <a href="http://www.douban.com/group/mature/" class="">我们都是熟女控</a>
+      </div>
+      <span class="num">
+      6783个成员
+      </span>
+      <span class="join">
+          <a href="http://www.douban.com/group/mature/?action=join&amp;ck=" class="j a_show_login lnk-join"><i>+</i>加入小组</a>
+      </span>
+    </div>
+  </li>
+
+          
+  <li class="">
+    <div class="pic">
+      <a href="http://www.douban.com/group/Youth_Hostel/"><img src="http://img3.douban.com/icon/g204991-4.jpg" class=""></a>
+    </div>
+    <div class="info">
+      <div class="title">
+        <a href="http://www.douban.com/group/Youth_Hostel/" class="">不仅仅是“青年旅舍”</a>
+      </div>
+      <span class="num">
+      10510个成员
+      </span>
+      <span class="join">
+          <a href="http://www.douban.com/group/Youth_Hostel/?action=join&amp;ck=" class="j a_show_login lnk-join"><i>+</i>加入小组</a>
+      </span>
+    </div>
+  </li>
+
+          
+  <li class="">
+    <div class="pic">
+      <a href="http://www.douban.com/group/362416/"><img src="http://img3.douban.com/icon/g362416-12.jpg" class=""></a>
+    </div>
+    <div class="info">
+      <div class="title">
+        <a href="http://www.douban.com/group/362416/" class="">旅行捡人俱乐部</a>
+      </div>
+      <span class="num">
+      26313个欢乐多
+      </span>
+      <span class="join">
+          <a href="http://www.douban.com/group/362416/?action=join&amp;ck=" class="j a_show_login lnk-join"><i>+</i>加入小组</a>
+      </span>
+    </div>
+  </li>
+
+          
+  <li class="">
+    <div class="pic">
+      <a href="http://www.douban.com/group/528191/"><img src="http://img3.douban.com/icon/g528191-2.jpg" class=""></a>
+    </div>
+    <div class="info">
+      <div class="title">
+        <a href="http://www.douban.com/group/528191/" class="">淘宝时尚女装女包衣服</a>
+      </div>
+      <span class="num">
+      18433个成员
+      </span>
+      <span class="join">
+          <a href="http://www.douban.com/group/528191/?action=join&amp;ck=" class="j a_show_login lnk-join"><i>+</i>加入小组</a>
+      </span>
+    </div>
+  </li>
+
+          
+  <li class="">
+    <div class="pic">
+      <a href="http://www.douban.com/group/515859/"><img src="http://img3.douban.com/icon/g515859-2.jpg" class=""></a>
+    </div>
+    <div class="info">
+      <div class="title">
+        <a href="http://www.douban.com/group/515859/" class="">吃喝玩乐交友沙龙(微信:YLKZWX)</a>
+      </div>
+      <span class="num">
+      101311个成员
+      </span>
+      <span class="join">
+          <a href="http://www.douban.com/group/515859/?action=join&amp;ck=" class="j a_show_login lnk-join"><i>+</i>加入小组</a>
+      </span>
+    </div>
+  </li>
+
+          
+  <li class="">
+    <div class="pic">
+      <a href="http://www.douban.com/group/ylyinfo/"><img src="http://img3.douban.com/icon/g264788-3.jpg" class=""></a>
+    </div>
+    <div class="info">
+      <div class="title">
+        <a href="http://www.douban.com/group/ylyinfo/" class="">没钱也旅游 之 旅游资讯一</a>
+      </div>
+      <span class="num">
+      15992个成员
+      </span>
+      <span class="join">
+          <a href="http://www.douban.com/group/ylyinfo/?action=join&amp;ck=" class="j a_show_login lnk-join"><i>+</i>加入小组</a>
+      </span>
+    </div>
+  </li>
+
+          
+  <li class="">
+    <div class="pic">
+      <a href="http://www.douban.com/group/chinacollege/"><img src="http://img3.douban.com/icon/g131105-1.jpg" class=""></a>
+    </div>
+    <div class="info">
+      <div class="title">
+        <a href="http://www.douban.com/group/chinacollege/" class="">北京招聘(二)</a>
+      </div>
+      <span class="num">
+      21530个成员
+      </span>
+      <span class="join">
+          <a href="http://www.douban.com/group/chinacollege/?action=join&amp;ck=" class="j a_show_login lnk-join"><i>+</i>加入小组</a>
+      </span>
+    </div>
+  </li>
+
+          
+  <li class="">
+    <div class="pic">
+      <a href="http://www.douban.com/group/toufa/"><img src="http://img3.douban.com/icon/g258280-41.jpg" class=""></a>
+    </div>
+    <div class="info">
+      <div class="title">
+        <a href="http://www.douban.com/group/toufa/" class="">人人都爱好头发</a>
+      </div>
+      <span class="num">
+      166541个成员
+      </span>
+      <span class="join">
+          <a href="http://www.douban.com/group/toufa/?action=join&amp;ck=" class="j a_show_login lnk-join"><i>+</i>加入小组</a>
+      </span>
+    </div>
+  </li>
+
+          
+  <li class="">
+    <div class="pic">
+      <a href="http://www.douban.com/group/Englishtrans/"><img src="http://img3.douban.com/icon/g12273-2.jpg" class=""></a>
+    </div>
+    <div class="info">
+      <div class="title">
+        <a href="http://www.douban.com/group/Englishtrans/" class="">英文翻译 Workshop™</a>
+      </div>
+      <span class="num">
+      134537个翻译爱好者
+      </span>
+      <span class="join">
+          <a href="http://www.douban.com/group/Englishtrans/?action=join&amp;ck=" class="j a_show_login lnk-join"><i>+</i>加入小组</a>
+      </span>
+    </div>
+  </li>
+
+          
+  <li class="">
+    <div class="pic">
+      <a href="http://www.douban.com/group/Lushies/"><img src="http://img3.douban.com/icon/g253515-1.jpg" class=""></a>
+    </div>
+    <div class="info">
+      <div class="title">
+        <a href="http://www.douban.com/group/Lushies/" class="">LUSHies! 我们愛Lush</a>
+      </div>
+      <span class="num">
+      7382个LUSHies
+      </span>
+      <span class="join">
+          <a href="http://www.douban.com/group/Lushies/?action=join&amp;ck=" class="j a_show_login lnk-join"><i>+</i>加入小组</a>
+      </span>
+    </div>
+  </li>
+
+          
+  <li class="">
+    <div class="pic">
+      <a href="http://www.douban.com/group/58151/"><img src="http://img3.douban.com/icon/g58151-5.jpg" class=""></a>
+    </div>
+    <div class="info">
+      <div class="title">
+        <a href="http://www.douban.com/group/58151/" class="">就是要美白</a>
+      </div>
+      <span class="num">
+      38603个美人
+      </span>
+      <span class="join">
+          <a href="http://www.douban.com/group/58151/?action=join&amp;ck=" class="j a_show_login lnk-join"><i>+</i>加入小组</a>
+      </span>
+    </div>
+  </li>
+
+          
+  <li class="">
+    <div class="pic">
+      <a href="http://www.douban.com/group/fattie-go-lucky/"><img src="http://img3.douban.com/icon/g206998-7.jpg" class=""></a>
+    </div>
+    <div class="info">
+      <div class="title">
+        <a href="http://www.douban.com/group/fattie-go-lucky/" class="">胖子反省小组</a>
+      </div>
+      <span class="num">
+      57706个fattie
+      </span>
+      <span class="join">
+          <a href="http://www.douban.com/group/fattie-go-lucky/?action=join&amp;ck=" class="j a_show_login lnk-join"><i>+</i>加入小组</a>
+      </span>
+    </div>
+  </li>
+
+          
+  <li class="">
+    <div class="pic">
+      <a href="http://www.douban.com/group/BM/"><img src="http://img3.douban.com/icon/g14746-14.jpg" class=""></a>
+    </div>
+    <div class="info">
+      <div class="title">
+        <a href="http://www.douban.com/group/BM/" class="">问题皮肤体型研究所</a>
+      </div>
+      <span class="num">
+      95653个对自己不满意
+      </span>
+      <span class="join">
+          <a href="http://www.douban.com/group/BM/?action=join&amp;ck=" class="j a_show_login lnk-join"><i>+</i>加入小组</a>
+      </span>
+    </div>
+  </li>
+
+          
+  <li class="">
+    <div class="pic">
+      <a href="http://www.douban.com/group/shanghailove/"><img src="http://img3.douban.com/icon/g239545-1.jpg" class=""></a>
+    </div>
+    <div class="info">
+      <div class="title">
+        <a href="http://www.douban.com/group/shanghailove/" class="">上海最靠谱的谈恋爱小组</a>
+      </div>
+      <span class="num">
+      12963个上海有缘人
+      </span>
+      <span class="join">
+          <a href="http://www.douban.com/group/shanghailove/?action=join&amp;ck=" class="j a_show_login lnk-join"><i>+</i>加入小组</a>
+      </span>
+    </div>
+  </li>
+
+          
+  <li class="">
+    <div class="pic">
+      <a href="http://www.douban.com/group/176085/"><img src="http://img3.douban.com/icon/g176085-3.jpg" class=""></a>
+    </div>
+    <div class="info">
+      <div class="title">
+        <a href="http://www.douban.com/group/176085/" class="">厦门兼职</a>
+      </div>
+      <span class="num">
+      16020个成员
+      </span>
+      <span class="join">
+          <a href="http://www.douban.com/group/176085/?action=join&amp;ck=" class="j a_show_login lnk-join"><i>+</i>加入小组</a>
+      </span>
+    </div>
+  </li>
+
+          
+  <li class="">
+    <div class="pic">
+      <a href="http://www.douban.com/group/537053/"><img src="http://img3.douban.com/icon/g537053-2.jpg" class=""></a>
+    </div>
+    <div class="info">
+      <div class="title">
+        <a href="http://www.douban.com/group/537053/" class="">生活杂谈</a>
+      </div>
+      <span class="num">
+      262个成员
+      </span>
+      <span class="join">
+          <a href="http://www.douban.com/group/537053/?action=join&amp;ck=" class="j a_show_login lnk-join"><i>+</i>加入小组</a>
+      </span>
+    </div>
+  </li>
+
+          
+  <li class="">
+    <div class="pic">
+      <a href="http://www.douban.com/group/yingguoliuxue/"><img src="http://img3.douban.com/icon/g210824-9.jpg" class=""></a>
+    </div>
+    <div class="info">
+      <div class="title">
+        <a href="http://www.douban.com/group/yingguoliuxue/" class="">英国留学中心</a>
+      </div>
+      <span class="num">
+      23110个英国留学生
+      </span>
+      <span class="join">
+          <a href="http://www.douban.com/group/yingguoliuxue/?action=join&amp;ck=" class="j a_show_login lnk-join"><i>+</i>加入小组</a>
+      </span>
+    </div>
+  </li>
+
+      </ul>
+    </div>
+  </div>
+  <!-- douban ad begin -->
+  <div id="dale_group_explore_bottom_right"></div>
+  <!-- douban ad end -->
+
+        </div>
+        <div class="extra">
+            
+    <!-- douban ad begin -->
+    <div id="dale_newgroup_explore_bottom_banner"></div>
+    <!-- douban ad end -->
+
+        </div>
+    </div>
+</div>
+
+        
+<div id="footer">
+    
+
+<span id="icp" class="fleft gray-link">
+    &copy; 2005－2015 douban.com, all rights reserved
+</span>
+
+<a href="http://www.douban.com/hnypt/variformcyst.py" style="display: none;"></a>
+
+<span class="fright">
+    <a href="http://www.douban.com/about">关于豆瓣</a>
+    · <a href="http://www.douban.com/jobs">在豆瓣工作</a>
+    · <a href="http://www.douban.com/about?topic=contactus">联系我们</a>
+    · <a href="http://www.douban.com/about?policy=disclaimer">免责声明</a>
+    
+    · <a href="http://www.douban.com/help/group">帮助中心</a>
+    · <a href="http://developers.douban.com/" target="_blank">开发者</a>
+    · <a href="http://www.douban.com/doubanapp/">移动应用</a>
+    · <a href="http://www.douban.com/partner/">豆瓣广告</a>
+</span>
+
+
+</div>
+
+    </div>
+    <script type="text/javascript" src="http://img3.douban.com/misc/mixed_static/21ebc7372ed2ebb3.js"></script>
+    
+    <!-- douban ad begin -->
+    
+
+
+
+
+    
+<script type="text/javascript">
+    (function (global) {
+        var newNode = global.document.createElement('script'),
+            existingNode = global.document.getElementsByTagName('script')[0],
+            adSource = '//erebor.douban.com/',
+            userId = '',
+            browserId = 'Z5QrDlUZq0c',
+            criteria = '3:/group/explore',
+            preview = '',
+            debug = false,
+            adSlots = ['dale_group_explore_top_right', 'dale_group_explore_bottom_right', 'dale_newgroup_explore_bottom_banner'];
+
+        global.DoubanAdRequest = {src: adSource, uid: userId, bid: browserId, crtr: criteria, prv: preview, debug: debug};
+        global.DoubanAdSlots = (global.DoubanAdSlots || []).concat(adSlots);
+
+        newNode.setAttribute('type', 'text/javascript');
+        newNode.setAttribute('src', 'http://img3.douban.com/f/shire/0a3e8bdd48446950d821b65613a24e86be2b067a/js/ad.js');
+        newNode.setAttribute('async', true);
+        existingNode.parentNode.insertBefore(newNode, existingNode);
+    })(this);
+</script>
+
+
+
+
+
+
+
+
+
+
+    <!-- douban ad end -->
+
+    
+    
+
+
+
+
+
+<script type="text/javascript">
+var _paq = _paq || [];
+_paq.push(['trackPageView']);
+_paq.push(['enableLinkTracking']);
+(function() {
+    var p=(('https:' == document.location.protocol) ? 'https' : 'http'), u=p+'://fundin.douban.com/';
+    _paq.push(['setTrackerUrl', u+'piwik']);
+    _paq.push(['setSiteId', '100001']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript';
+    g.defer=true;
+    g.async=true;
+    g.src=p+'://s.doubanio.com/dae/fundin/piwik.js';
+    s.parentNode.insertBefore(g,s);
+})();
+</script>
+
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-7019765-1']);
+_gaq.push(['_setCampNameKey', 'dcn']);
+_gaq.push(['_setCampSourceKey', 'dcs']);
+_gaq.push(['_setCampMediumKey', 'dcm']);
+_gaq.push(['_setCampTermKey', 'dct']);
+_gaq.push(['_setCampContentKey', 'dcc']);
+_gaq.push(['_addOrganic', 'baidu', 'word']);
+_gaq.push(['_addOrganic', 'soso', 'w']);
+_gaq.push(['_addOrganic', '3721', 'name']);
+_gaq.push(['_addOrganic', 'youdao', 'q']);
+_gaq.push(['_addOrganic', 'so.360.cn', 'q']);
+_gaq.push(['_addOrganic', 'vnet', 'kw']);
+_gaq.push(['_addOrganic', 'sogou', 'query']);
+_gaq.push(['_addIgnoredOrganic', '豆瓣']);
+_gaq.push(['_addIgnoredOrganic', 'douban']);
+_gaq.push(['_addIgnoredOrganic', '豆瓣网']);
+_gaq.push(['_addIgnoredOrganic', 'www.douban.com']);
+_gaq.push(['_setDomainName', '.douban.com']);
+
+
+    _gaq.push(['_setCustomVar', 1, 'responsive_view_mode', 'desktop', 3]);
+
+_gaq.push(['_trackPageview']);
+_gaq.push(['_trackPageLoadTime']);
+
+window._ga_init = function() {
+    var ga = document.createElement('script');
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    ga.setAttribute('async', 'true');
+    document.documentElement.firstChild.appendChild(ga);
+};
+if (window.addEventListener) {
+    window.addEventListener('load', _ga_init, false);
+} else {
+    window.attachEvent('onload', _ga_init);
+}
+</script>
+
+
+
+
+
+    <!-- hador12-->
+
+            
+
+
+
+
+
+
+
+<div id="g-popup-reg" class="popup-reg" style="display:none;">
+  <div class="bd">
+  
+  <iframe src="about:blank" frameborder="0" scrolling="no"></iframe>
+    <a href="#" class="lnk-close">&times;</a>
+  </div>
+</div>
+
+<div id="landing-bar" style="display:none;">
+    <div class="bd">
+        <p>在这里发现跟你一样特别的人，并与之交流...</p>
+        <div class="operation">
+            <a href="" class="j a_show_register">注册</a>
+            <a href="" class="j a_show_login">登录</a>
+        </div>
+        
+        
+  
+  <div class="item item-3rd">
+    <label>
+    第三方登录：
+    </label>
+    <a target="_top" href="http://www.douban.com/accounts/connect/qq/?from=group&amp;redir=http%3A//www.douban.com/group/" class="item-qq"><img src="http://img3.douban.com/pics/connect_qq.png" title="QQ"></a>
+    <a target="_top" href="http://www.douban.com/accounts/connect/sina_weibo/?from=group&amp;redir=http%3A//www.douban.com/group/&amp;fallback=http://www.douban.com/group/" class="item-weibo"><img src="http://img3.douban.com/pics/connect_sina_weibo.png" title="新浪微博"></a>
+  </div>
+
+        <a href="#" class="lnk-close">&times;</a>
+    </div>
+</div>
+
+
+<script>
+
+var login_url = 'http://www.douban.com/accounts/popup/group_login';
+var reg_url = 'http://www.douban.com/accounts/popup/group_register';
+</script>
+
+
+
+
+
+
+
+
+  <script>_SPLITTEST=''</script>
+</body>
+
+</html>
+

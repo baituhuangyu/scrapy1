@@ -1,0 +1,5 @@
+pageTitle : 麦子学院_专业的IT在线职业教育平台 
+pageTitlekeywords: IT在线教育,IT职业教育,IT培训,IT职业课程,IT职业学习,麦子学院courseName : 企业直通班 courseURL: /course/courseName : 企业直通班 
+courseURL: http://www.maiziedu.com/course/
+courseName : 企业直通班 
+courseURL: http://www.maiziedu.com/course/
